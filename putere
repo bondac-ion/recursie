@@ -1,0 +1,8 @@
+def putere(a,b):
+    if b>0:
+        return a*putere(a,b-1)
+    if b==0:
+        return 1
+a=int(input())
+b=int(input())
+print(putere(a,b))
